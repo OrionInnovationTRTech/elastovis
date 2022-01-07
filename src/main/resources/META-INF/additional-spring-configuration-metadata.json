@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "xpack.security.enabled",
+      "type": "java.lang.String",
+      "description": "Description for xpack.security.enabled."
+  }
+] }
