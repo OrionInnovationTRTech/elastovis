@@ -11,8 +11,8 @@ import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfig
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @Configuration
-@EnableElasticsearchRepositories(basePackages = "pmloganalyzerelasticsearch.*")
-@ComponentScan(basePackages = {"pmloganalyzerelasticsearch.*"})
+@EnableElasticsearchRepositories(basePackages = "elastovis.*")
+@ComponentScan(basePackages = {"elastovis.*"})
 public class Config extends AbstractElasticsearchConfiguration {
 
     @Value("${elasticsearch.url}")
