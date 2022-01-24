@@ -1,11 +1,11 @@
-# LogtoVis
+# ElastoVis
 
-LogtoVis scrapes log data, allowing data to be visualized in elasticsearch application.
+ElastoVis scrapes log data, allowing data to be visualized in elasticsearch application.
 Log files contain a wide variety of data about the software. 
 
 In the project development and maintenance processes, analyzes and inferences are made over these logs. Searching within a single file can be easy. However, when we have 200 or 1000 log files, how should we process this data? How can we make the data meaningful?
 
-LogtoVis is coded to eliminate this problem. It can quickly parse the data and transfer it to the elasticsearch application.
+ElastoVis is coded to eliminate this problem. It can quickly parse the data and transfer it to the elasticsearch application.
 
 Built with Spring Boot.
 
